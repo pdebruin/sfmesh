@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1082
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9B56FCB0-63B4-404F-8A09-42EF52B53347}") = "meshapp", "meshapp\meshapp.sfaproj", "{21A99341-C67E-4822-92FB-308BCDDDFEDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web1", "Web1\Web1.csproj", "{1812788D-F366-4EE1-996B-616202F2FB3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21A99341-C67E-4822-92FB-308BCDDDFEDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21A99341-C67E-4822-92FB-308BCDDDFEDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21A99341-C67E-4822-92FB-308BCDDDFEDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21A99341-C67E-4822-92FB-308BCDDDFEDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1812788D-F366-4EE1-996B-616202F2FB3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1812788D-F366-4EE1-996B-616202F2FB3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1812788D-F366-4EE1-996B-616202F2FB3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1812788D-F366-4EE1-996B-616202F2FB3A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {39FD2B9B-DCCE-477C-A356-524291EF3771}
+	EndGlobalSection
+EndGlobal

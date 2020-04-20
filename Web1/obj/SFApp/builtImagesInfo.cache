@@ -1,0 +1,15 @@
+{
+  "BuiltDockerfiles": [
+    {
+      "ServiceName": "Web1",
+      "CodePackageName": "Web1",
+      "DockerfilePath": "c:\\_projects\\meshapp\\Web1\\Dockerfile",
+      "BuildContextPath": "c:\\_projects\\meshapp",
+      "DockerfileHash": "cZ4OHoryXaYW4a6bCfzuAQu0vmOCwxr4W8BG8PPo9e0=",
+      "DockerIgnoreFileHash": "XHz8aUYl8MB6VeDpzVtNsST4hgewNSyNaO7p3eralQ0=",
+      "BuildStage": "base",
+      "ImageTag": "web1:dev",
+      "ImageId": "sha256:970c369170b3d324c4a41ec52f29268a00f6cb4708036a89648a803c72ad3fdc"
+    }
+  ]
+}

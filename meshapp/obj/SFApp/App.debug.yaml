@@ -1,0 +1,19 @@
+
+application:
+  schemaVersion: 1.0.0-preview2
+  name: meshapp
+  properties:
+    debugParams: |
+      [
+        {
+          "ServiceManifestName": "Web1Pkg",
+          "CodePackageName": "Web1",
+          "DisableReliableCollectionReplicationMode": true,
+          "ContainerDebugParams":
+          {
+            "Entrypoint": ["C:\\remote_debugger\\x64\\msvsmon.exe", "/noauth", "/anyuser", "/silent", "/nostatus", "/noclrwarn", "/nosecuritywarn", "/nofirewallwarn", "/nowowwarn", "/fallbackloadremotemanagedpdbs", "/timeout:2147483646"],
+            "EnvVars": ["SERVICE_PROJECT_VOLUME_PATH=C:\\app", "NUGET_PACKAGES=C:\\nuget1", "NUGET_FALLBACK_PACKAGES=C:\\nuget2"],
+            "Volumes": ["C:\\Users\\pidebrui\\onecoremsvsmon\\15.0.28307.1062:C:\\remote_debugger", "c:\\_projects\\meshapp\\Web1:C:\\app", "C:\\Users\\pidebrui\\.nuget\\packages:C:\\nuget1", "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder:C:\\nuget2"]
+          }
+        }
+      ]

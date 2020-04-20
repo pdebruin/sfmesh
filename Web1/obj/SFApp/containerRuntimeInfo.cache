@@ -1,0 +1,21 @@
+{
+  "ServiceName": "Web1",
+  "CodePackageName": "Web1",
+  "DevelopmentMode": "Fast",
+  "ServiceSettingsFilePath": "c:\\_projects\\meshapp\\Web1\\Service Resources\\service.yaml",
+  "ServiceSettingsFileHash": "m3SSA7DztfW8z3VHUenernOplEp8c+KXTX/Tt/ysI9w=",
+  "Entrypoint": "C:\\remote_debugger\\x64\\msvsmon.exe /noauth /anyuser /silent /nostatus /noclrwarn /nosecuritywarn /nofirewallwarn /nowowwarn /fallbackloadremotemanagedpdbs /timeout:2147483646",
+  "EndpointPort": "80",
+  "IsStateful": false,
+  "VolumeMappings": [
+    "C:\\Users\\pidebrui\\onecoremsvsmon\\15.0.28307.1062::C:\\remote_debugger",
+    "c:\\_projects\\meshapp\\Web1::C:\\app",
+    "C:\\Users\\pidebrui\\.nuget\\packages::C:\\nuget1",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder::C:\\nuget2"
+  ],
+  "EnvironmentVariables": [
+    "SERVICE_PROJECT_VOLUME_PATH=C:\\app",
+    "NUGET_PACKAGES=C:\\nuget1",
+    "NUGET_FALLBACK_PACKAGES=C:\\nuget2"
+  ]
+}
